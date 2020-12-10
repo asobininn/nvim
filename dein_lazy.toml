@@ -1,0 +1,18 @@
+#------------------------------
+#ファイルツリーを表示する
+#------------------------------
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = '''
+	let g:NERDTreeShowHidden = 1
+	let g:NERDTreeQuitOnOpen = 1
+	nnoremap <silent><C-d> :NERDTreeToggle<CR>
+'''
+
+#------------------------------
+#Rust
+#------------------------------
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+on_ft = ['rust']
+

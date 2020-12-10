@@ -1,0 +1,54 @@
+#------------------------------
+#cs dsで囲い変更
+[[plugins]]
+#------------------------------
+repo = 'tpope/vim-surround'
+
+#------------------------------
+#.を強化
+#------------------------------
+[[plugins]]
+repo = 'tpope/vim-repeat'
+
+#------------------------------
+#ウィンドウサイズ変更
+#------------------------------
+[[plugins]]
+repo = 'simeji/winresizer'
+
+#------------------------------
+#ワードをブラウザでググる
+#------------------------------
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+hook_add = '''
+	nmap <Leader>b <Plug>(openbrowser-smart-search)
+	vmap <Leader>b <Plug>(openbrowser-smart-search)
+'''
+
+#------------------------------
+#見た目を変える
+#------------------------------
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+	source ~/.config/nvim/plugins/airline.vim
+'''
+
+#------------------------------
+#見た目を変える-テーマ追加
+#------------------------------
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+#------------------------------
+#coc.nvim
+#------------------------------
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+on_i = 1
+hook_add = '''
+	source ~/.config/nvim/plugins/coc.vim
+'''
+
