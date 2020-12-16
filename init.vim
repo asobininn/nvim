@@ -16,8 +16,8 @@ nnoremap j gj
 nnoremap k gk
 
 set list listchars=tab:\▸\-
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 set incsearch
 set wrapscan
