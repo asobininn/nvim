@@ -3,7 +3,7 @@ This is asobininn's nvim setting.
 # Setup procedure
 ## 1. install nvim
 ```
-apt install nvim
+apt install neovim
 ```
 ## 2. clone this
 ```
