@@ -15,4 +15,3 @@ hook_add = '''
 [[plugins]]
 repo = 'rust-lang/rust.vim'
 on_ft = ['rust']
-

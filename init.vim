@@ -26,6 +26,9 @@ nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 
 set foldmethod=marker
 
+autocmd BufNewFile *.html 0r $HOME/.config/nvim/template/html.skel
+autocmd BufNewFile *.html.tera 0r $HOME/.config/nvim/template/html.skel
+
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
