@@ -64,3 +64,12 @@ repo = 'tpope/vim-fugitive'
 #------------------------------
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+
+#------------------------------
+#htmlのタグを閉じる
+#------------------------------
+[[plugins]]
+repo = 'alvan/vim-closetag'
+hook_add = '''
+	source ~/.config/nvim/plugins/vim-closetag.vim
+'''
