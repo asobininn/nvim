@@ -12,8 +12,6 @@ set cursorline
 set smartindent
 set showmatch
 set wildmode=list:longest
-nnoremap j gj
-nnoremap k gk
 
 set list listchars=tab:\▸\-
 set tabstop=4
@@ -22,12 +20,16 @@ set shiftwidth=4
 set incsearch
 set wrapscan
 set hlsearch
+" mapping
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
+nnoremap j gj
+nnoremap k gk
+inoremap @] <Esc>
 
 set foldmethod=marker
 
+" template
 autocmd BufNewFile *.html 0r $HOME/.config/nvim/template/html.skel
-autocmd BufNewFile *.html.tera 0r $HOME/.config/nvim/template/html.skel
 
 "dein Scripts-----------------------------
 if &compatible
