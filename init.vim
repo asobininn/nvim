@@ -24,7 +24,7 @@ set hlsearch
 nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 nnoremap j gj
 nnoremap k gk
-inoremap @] <Esc>
+inoremap jj <Esc>
 
 set foldmethod=marker
 
