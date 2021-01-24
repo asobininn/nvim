@@ -25,6 +25,7 @@ nnoremap <Esc><Esc> :nohlsearch<CR><Esc>
 nnoremap j gj
 nnoremap k gk
 inoremap jj <Esc>
+nnoremap <C-t> <C-w>v<C-w>l:term<CR>
 
 set foldmethod=marker
 
