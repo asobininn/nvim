@@ -12,9 +12,15 @@ hook_add = '''
 
 #------------------------------
 #cs dsで囲い変更
-[[plugins]]
 #------------------------------
+[[plugins]]
 repo = 'tpope/vim-surround'
+
+#------------------------------
+#カッコを自動で閉じる
+#------------------------------
+[[plugins]]
+repo = 'cohama/lexima.vim'
 
 #------------------------------
 #.を強化
@@ -73,3 +79,10 @@ repo = 'alvan/vim-closetag'
 hook_add = '''
 	source ~/.config/nvim/plugins/vim-closetag.vim
 '''
+
+#------------------------------
+#禅モード
+#------------------------------
+[[plugins]]
+repo = 'junegunn/goyo.vim'
+
