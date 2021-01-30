@@ -13,7 +13,7 @@ set smartindent
 set showmatch
 set wildmode=list:longest
 
-set list listchars=tab:\▸\-
+"set list listchars=tab:\▸\-
 set tabstop=4
 set shiftwidth=4
 

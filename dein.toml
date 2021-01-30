@@ -86,3 +86,14 @@ hook_add = '''
 [[plugins]]
 repo = 'junegunn/goyo.vim'
 
+#------------------------------
+#インデントを色付け
+#------------------------------
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = '''
+	let g:indent_guides_enable_on_vim_startup = 1
+	let g:indent_guides_auto_colors = 0
+	hi IndentGuidesOdd  ctermbg = darkgray
+	hi IndentGuidesEven ctermbg = gray
+'''
